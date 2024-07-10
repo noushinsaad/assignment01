@@ -113,6 +113,8 @@ nav .primary-btn {
 }
 
 
+
+
 .card-container {
     width: 946px;
     height: 1072px;
@@ -306,6 +308,80 @@ nav .primary-btn {
     text-decoration-line: underline;
     margin-top: 24px;
 }
+
+/* section-4 styles */
+
+.section-4 {
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.target-item-container {
+    width: 1140px;
+    height: 705px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.target-item {
+    height: 31%;
+    width: 100%;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target-item-content {
+    width: 1060px;
+    height: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.target-item-title {
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    /* letter-spacing: 0%; */
+    /* text-align: left; */
+}
+
+.target-item-des {
+    margin-top: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.target-item-link {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
 
 /* section-5 styles */
 .section-5 {
