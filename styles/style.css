@@ -41,6 +41,9 @@
 
 /* header section styles */
 nav {
+    max-width: 1440px;
+    /* margin: 0 auto; */
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,12 +52,12 @@ nav {
 
 nav p {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    /* font-family: Azeret Mono; */
     font-size: 20px;
     font-weight: 800;
     line-height: 33px;
-    letter-spacing: 0%;
-    text-align: left;
+    /* letter-spacing: 0%; */
+    /* text-align: left; */
 }
 
 nav .primary-btn {
@@ -69,7 +72,7 @@ nav .primary-btn {
 
 /* banner styles */
 .banner {
-    /* max-width: 1440px; */
+    max-width: 1440px;
     height: 650px;
     border: 2px dashed rgba(13, 19, 33, 0.3);
     margin: 0 auto;
